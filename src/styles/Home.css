@@ -1,0 +1,146 @@
+.homeMain {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 90px;
+}
+
+.homeDiv1 {
+  padding: 50px;
+  width: 45%;
+  margin-top: 25px;
+}
+
+.homeDiv1 h3 {
+  color: #9f9f9f;
+  font-size: 16px;
+}
+
+.homeDiv1 h2 {
+  color: white;
+}
+
+.homeDiv1 h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.homeDiv11 {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.homeDiv11Link {
+  text-decoration: none;
+  align-self: center;
+}
+
+.homeDiv11Link h3 {
+  font-size: 14px;
+  padding: 15px;
+  background-color: #ff00a2;
+  color: white;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.homeDiv11Link1 {
+  text-decoration: none;
+  align-self: center;
+}
+
+.homeDiv11Link1 h3 {
+  font-size: 14px;
+  padding: 15px;
+  border: 2px solid #ff00a2;
+  color: white;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.homeDiv12 {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.homeDiv12 .icons {
+  color: white;
+  font-size: 25px;
+}
+
+.homeDiv2 {
+  padding-right: 20px;
+}
+
+.homeDiv2 img {
+  width: 430px;
+}
+
+@media screen and (max-width: 925px) {
+  .homeMain {
+    display: block;
+    justify-content: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .homeDiv1 {
+    padding: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .homeDiv1 h3 {
+    font-size: 13px;
+  }
+
+  .homeDiv1 h2 {
+    font-size: 15px;
+  }
+
+  .homeDiv1 h1 {
+    font-size: 17px;
+  }
+
+  .homeDiv11 {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: space-around;
+  }
+
+  .homeDiv11Link h3 {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .homeDiv11Link1 h3 {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .homeDiv12 {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+
+  .homeDiv12 .icons {
+    color: white;
+    font-size: 20px;
+  }
+
+  .homeDiv2 {
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .homeDiv2 img {
+    width: 310px;
+  }
+}
