@@ -3,6 +3,8 @@
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 30px;
+  min-height: 510px;
 }
 
 .aboutDiv1 {
@@ -122,6 +124,7 @@ li h3 {
     justify-content: none;
     padding-left: 20px;
     padding-right: 20px;
+    min-height: 800px;
   }
 
   .aboutDiv1 {
