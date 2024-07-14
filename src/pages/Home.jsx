@@ -22,27 +22,43 @@ const Home = () => {
           needs of modern businesses and users.
         </h2>
         <div className="homeDiv11">
-          <Link className="homeDiv11Link">
+          <a
+            className="homeDiv11Link"
+            href="../../public/alexandra.pdf"
+            download
+          >
             <h3>Download CV</h3>
-          </Link>
+          </a>
           <Link className="homeDiv11Link1" to="/portfolio">
             <h3>My Works</h3>
           </Link>
         </div>
         <div className="homeDiv12">
-          <Link>
+          <a
+            href="https://github.com/ikosong1406"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className="icons" />
-          </Link>
-          <Link>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/alexander-virtuous-ikosong-4533b6235"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedinIn className="icons" />
-          </Link>
-          <Link>
+          </a>
+          <a
+            href="https://x.com/Alexandervirt14?t=OxDAu-iXEhHt21Z6sji-fg&s=09"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaXTwitter className="icons" />
-          </Link>
+          </a>
         </div>
       </div>
       <div className="homeDiv2">
-        <img src={image} />
+        <img src={image} alt="Alexandra Ikosong" />
       </div>
     </div>
   );
