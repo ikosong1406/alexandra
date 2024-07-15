@@ -30,16 +30,6 @@ const projects = [
     type: "web",
   },
   {
-    title: "Trustleger",
-    link: "https://trustledger.vercel.app",
-    description:
-      "This is a web2.5 finance project that allow users buy and save their money in gold backed token",
-    technologies: ["Express", "React", "MongoDB", "Nodejs"],
-    role: "Full Stack Developer",
-    image: trustleger,
-    type: "web",
-  },
-  {
     title: "Hivehub",
     // link: "https://mobileappone.com",
     description:
